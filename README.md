@@ -22,3 +22,7 @@ To identify, synthesize, and evaluate techniques for linked list optimization on
 - `/report`: Contains the LaTeX source or final PDF of the review paper.
 - `/logs`: Contains execution logs for all scripts.
 - `/appendices`: Contains supplementary materials for the report.
+
+## Report Writing (LaTeX on Overleaf)
+The final report will be written using LaTeX on Overleaf.
+Project Link: [https://www.overleaf.com/project/682ae5c7631c330e77ca9f1e]
