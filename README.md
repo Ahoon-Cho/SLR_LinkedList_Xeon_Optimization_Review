@@ -5,7 +5,10 @@ This project conducts a Systematic Literature Review (SLR) to analyze research t
 To identify, synthesize, and evaluate techniques for linked list optimization on selected Intel Xeon generations (Skylake-SP, Cascade Lake-SP, Ice Lake-SP), focusing on cache/prefetcher interactions and their impact on linked list traversal.
 
 ## Review Question
--NU-
+1. What are the key design principles (e.g., layout, allocation, prefetching control) and methodologies (experimental environments, simulator types/versions, workloads) that were mainly used to optimize the cache efficiency of linked lists or their interaction with major hardware prefetchers (L1D streams/IPP, L2 streams/Spatial) in Intel Xeon Skylake-SP, Cascade Lake-SP, and Ice Lake-SP environments, and what are their quantitative performance improvements?
+2. What are the common limitations of the studies identified in RQ1 (e.g., dependence on specific workloads, simplification of the prefetcher model, lack of consideration of NUMA environment) and what are the major research gaps that have not been addressed to date?
+3. Considering the advancement of next-generation Intel Xeon architectures (e.g., Granite Rapids and beyond) and memory technologies (e.g., CXL 2.0/3.0, DDR5/6), what are the urgent future research topics and technical challenges that need to be addressed for linked list cache/prefetcher optimization?
+
 
 ## Key Personnel
 - Researcher: Ahoon Cho (email: 30526@cnsa.hs.kr)
