@@ -1,0 +1,82 @@
+Term_Category,Main_Term,Synonym_1,Synonym_2,Synonym_3,Synonym_4,Search_Context_Keywords,Notes
+Data Structure,Linked List,Pointer List,Chained List,Dynamic List,Self-referential Structure,"node traversal,pointer chasing,list traversal,linked data structure"
+Data Structure,Singly Linked List,SLL,One-way List,Uni-directional List,,
+Data Structure,Doubly Linked List,DLL,Two-way List,Bi-directional List,,
+Data Structure,Circular Linked List,CLL,Circular List,Ring Buffer (list-based),,
+Data Structure,Unrolled List,Packed List,Vectorized List,List Unrolling,"cache line utilization,node packing,arrayed list"
+Data Structure,Skip List,Probabilistic List,Multi-level List,,,"concurrent access,sorted lists, logarithmic time search"
+Data Structure,Node,Element,List Node,Item,Record,
+Data Structure,Pointer,Reference,Link,Address,Memory Pointer,
+CPU Architecture,Intel Xeon SP,Xeon Scalable Processor,Server CPU,Intel Server CPU,High-Performance Computing CPU,"data center, cloud computing"
+CPU Architecture,Skylake-SP,SKX,Xeon Scalable 1st Gen,Skylake Server,Skylake Xeon,"Purley Platform, AVX-512"
+CPU Architecture,Cascade Lake-SP,CLX,Xeon Scalable 2nd Gen,Cascade Lake Server,Cascade Lake Xeon,"Purley Platform, Optane PMem, DL Boost, VNNI"
+CPU Architecture,Ice Lake-SP,ICX,Xeon Scalable 3rd Gen,Ice Lake Server,Ice Lake Xeon,"Whitley Platform, 10nm, Sunny Cove cores, Total Memory Encryption (TME)"
+CPU Architecture,Sapphire Rapids-SP,SPR,Xeon Scalable 4th Gen,Sapphire Rapids Xeon,Sapphire Rapids Server,"Eagle Stream Platform, Golden Cove cores, DDR5, PCIe 5.0, CXL 1.1, AMX, DSA, QAT"
+CPU Architecture,Emerald Rapids-SP,EMR,Xeon Scalable 5th Gen,Emerald Rapids Xeon,Emerald Rapids Server,"Eagle Stream Platform, Raptor Cove cores, UPI 2.0"
+CPU Architecture,Granite Rapids,GNR,Xeon Granite Rapids,,"Future Xeon, P-core, Sierra Forest (E-core)"
+CPU Architecture,Microarchitecture,uArch,Core Design,Processor Architecture,CPU Design,
+CPU Architecture,Core,CPU Core,Processor Core,Execution Unit,,
+CPU Architecture,Socket,CPU Socket,Processor Socket,Physical Package,"multi-socket system, dual-socket, quad-socket"
+CPU Architecture,NUMA,Non-Uniform Memory Access,NUMA Architecture,Distributed Shared Memory,"memory locality, remote access, inter-socket communication, latency penalty"
+Cache System,Cache,Cache Memory,CPU Cache,On-chip Cache,Fast Memory,
+Cache System,L1 Cache,Level 1 Cache,L1$,First-Level Cache,
+Cache System,L1D Cache,L1 Data Cache,Data Cache Unit,DCU,L1-D,"private cache, load/store operations"
+Cache System,L1I Cache,L1 Instruction Cache,Instruction Cache,ICache,L1-I,"private cache, instruction fetching"
+Cache System,L2 Cache,Level 2 Cache,L2$,Mid-level Cache,MLC,"unified cache, victim cache (sometimes)"
+Cache System,L3 Cache,Level 3 Cache,L3$,Last Level Cache,LLC,"shared cache, inclusive/exclusive cache"
+Cache System,Cache Line,Cache Block,Memory Line,Cache Entry,Cache Slot,"64 bytes, cache line fill"
+Cache System,Cache Miss,Cache Fault,Memory Stall,,"compulsory miss, capacity miss, conflict miss, cold miss, coherence miss"
+Cache System,Cache Hit,Cache Success,Data Hit,,,
+Cache System,Cache Coherence,Cache Consistency,Memory Coherence,Data Coherence,"MESI, MOESI, MESIF, cache coherence protocol, snoop filter"
+Cache System,Cache Policy,Replacement Policy,Eviction Policy,Insertion Policy,"LRU, LFU, FIFO, Random, PLRU, NRU, victim selection"
+Cache System,Cache Hierarchy,Memory Hierarchy,Multi-level Cache,Cache Subsystem,
+Hardware Prefetcher,Hardware Prefetcher,HWP,Automatic Prefetcher,Data Prefetching,Hardware Prefetch Engine,"prefetch unit, prefetch mechanism"
+Hardware Prefetcher,Prefetcher,Prefetch Unit,Data Prefetch Unit,DPU,Lookahead Unit,
+Hardware Prefetcher,L1D Prefetcher,L1 Data Prefetcher,DCU Prefetcher,L1 Prefetcher,
+Hardware Prefetcher,L2 Prefetcher,L2 Hardware Prefetcher,MLC Prefetcher,L2 Prefetch Unit,
+Prefetcher Type,Stream Prefetcher,Sequential Prefetcher,Next Line Prefetcher,NLP,Line Prefetcher,"adjacent cache lines, streaming access, unit-stride access, sequential access pattern"
+Prefetcher Type,Stride Prefetcher,IP-based Prefetcher,Instruction Pointer Prefetcher,IPP,Address Stride Prefetcher,"constant stride, address pattern, non-unit stride, reference prediction table (RPT)"
+Prefetcher Type,Spatial Prefetcher,Region Prefetcher,Block Prefetcher,Global Spatial Prefetcher,,"nearby cache lines, spatial locality, 2D spatial, footprint-based"
+Prefetcher Type,DCU Stream Prefetcher,L1D Stream Prefetcher,Data Cache Unit Streamer,,"Skylake, Cascade Lake specific"
+Prefetcher Type,DCU IP Prefetcher,L1D IP Prefetcher,Data Cache Unit IP Prefetcher,,"Skylake, Cascade Lake specific"
+Prefetcher Type,L2 Stream Prefetcher,MLC Stream Prefetcher,,"Skylake, Cascade Lake specific"
+Prefetcher Type,AMP,Address-based Memory Prefetcher,Advanced Memory Prefetcher,,"Ice Lake specific prefetcher, complex patterns, feedback-directed"
+Prefetcher Type,Feedback-Directed Prefetcher,Adaptive Prefetcher,Dynamic Prefetcher,Learning-based Prefetcher,,"runtime behavior, history-based"
+Prefetcher Metric,Prefetch Accuracy,Prefetch Precision,Prefetch Usefulness,Effective Prefetches,"Correctness, True Positive Rate for prefetches"
+Prefetcher Metric,Prefetch Coverage,Prefetch Recall,Demand Miss Reduction,,"Recall, Timeliness, late prefetch, early prefetch"
+Prefetcher Metric,Cache Pollution,Prefetch Pollution,Useless Prefetches,Bandwidth Wasting,"Negative impact, thrashing, harmful prefetch"
+Optimization Technique,Optimization,Performance,Efficiency,Enhancement,Tuning,"improvement, speedup, reduction, acceleration, boosting"
+Optimization Technique,Layout Optimization,Data Layout,Node Layout,Memory Layout,Structure Reordering,"field reordering, data placement, object layout"
+Optimization Technique,Cache-aware,Cache-conscious,Cache-friendly,Cache-optimized,Cache-centric,"cache line alignment, padding, cache blocking, tiling"
+Optimization Technique,Prefetcher-aware,Prefetcher-friendly,Prefetcher-conscious,Prefetcher-centric,"prefetcher interaction, prefetcher hints, prefetcher exploitation"
+Optimization Technique,Software Prefetching,SW Prefetch,Manual Prefetch,_mm_prefetch,Compiler-inserted Prefetch,"explicit prefetch, compiler hints, intrinsic functions"
+Optimization Technique,Prefetcher Control,Disable Prefetcher,Tune Prefetcher,Adjust Prefetcher,Configure Prefetcher,"throttling prefetcher, MSR control, prefetcher enabling/disabling"
+Optimization Technique,Memory Allocation,Dynamic Allocation,Heap Management,Memory Management,"malloc, new, custom allocator, memory pool, object allocation, page allocation"
+Optimization Technique,NUMA-aware Allocation,NUMA Optimization,Memory Placement,NUMA-aware Data Placement,"interleaving, local allocation, first-touch policy, page migration"
+Optimization Technique,Data Structure Transformation,Restructuring,Reorganization,Data Structure Redesign,,"e.g., unrolling, skip list levels, B-tree like structures for lists"
+Optimization Technique,Co-design,Hardware-Software Co-design,HW-SW Co-design,Synergistic Design,,"joint optimization, architectural support for software"
+Methodology,Simulation,Modeling,Trace-driven Simulation,Execution-driven Simulation,Performance Modeling,
+Methodology,Simulator,Performance Simulator,Architectural Simulator,Cycle-accurate Simulator,Cycle-level Simulator,
+Methodology,gem5,,"configurable architectural simulator",,
+Methodology,ZSim,,"x86-64 architectural simulator, Pin-based",,
+Methodology,Sniper,,"parallel multi-core simulator, interval simulation",,
+Methodology,Intel SDE,Intel Software Development Emulator,Intel Emulator,,"functional correctness, performance estimation, architectural exploration tool"
+Methodology,Experiment,Measurement,Empirical Study,Evaluation,Empirical Evaluation,"experimental setup, testbed, real hardware"
+Methodology,Workload,Benchmark,Test Case,Application,Representative Application,"SPEC CPU, Graph500, GAP Benchmark Suite, database workloads (TPC, YCSB), microbenchmarks, synthetic workloads"
+Methodology,Metric,Performance Metric,Evaluation Metric,Key Performance Indicator (KPI),Figure of Merit,
+Performance Metric,Latency,Response Time,Delay,Access Time,Execution Time,
+Performance Metric,Throughput,Bandwidth,Rate,Operations Per Second,
+Performance Metric,IPC,Instructions Per Cycle,Instruction Per Clock,Instructions Retired,
+Performance Metric,Cache Miss Rate,Miss Ratio,CMR,Misses Per Kilo Instruction (MPKI),
+Performance Metric,Prefetcher Efficiency,Prefetcher Performance,Prefetcher Effectiveness,Prefetch Quality,
+General Term,Memory Access,Memory Reference,Load Operation,Store Operation,Memory Operation,
+General Term,Pointer Chasing,Pointer Dereferencing,Recursive Traversal,Indirect Addressing,Memory Indirection,
+General Term,Data Locality,Locality of Reference,Temporal Locality,Spatial Locality,Reference Affinity,
+General Term,Scalability,Performance Scaling,Scalable Performance,,"strong scaling, weak scaling"
+General Term,Interaction,Interplay,Interference,Synergy,Cross-layer Interaction,
+Research Aspect,Limitation,Drawback,Shortcoming,Constraint,Bottleneck,"threats to validity"
+Research Aspect,Gap,Research Gap,Unsolved Problem,Open Issue,Knowledge Gap,"unexplored area"
+Research Aspect,Future Work,Future Research,Open Direction,Research Agenda,Future Directions,
+Technology,CXL,Compute Express Link,CXL.io,CXL.mem,CXL.cache,"memory expansion, coherent interface, disaggregated memory"
+Technology,DDR5,Double Data Rate 5,SDRAM,Synchronous Dynamic Random-Access Memory,,"main memory technology, high-bandwidth memory"
+Technology,DDR6,Double Data Rate 6,SDRAM,,"future main memory, next-generation DRAM"
