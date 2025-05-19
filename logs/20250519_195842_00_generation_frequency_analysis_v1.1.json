@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-05-19T19:58:42.326847",
+  "event_type": "script_execution_started",
+  "script_name": "00_generation_frequency_analysis_v1.1.py",
+  "arguments": {
+    "databases": [
+      "acm"
+    ],
+    "cpu_keywords_file": "../data/codebooks/cpu_generation_keywords_v1.0.json",
+    "synonym_list_file": "../data/codebooks/Synonym_List_v1.3.csv",
+    "output_dir": "results/00_output",
+    "start_year": 2015,
+    "end_year": 2025,
+    "log_level": "DEBUG"
+  }
+}
+{
+  "timestamp": "2025-05-19T19:58:42.328847",
+  "event_type": "output_directory_created",
+  "path": "results/00_output"
+}
+{
+  "timestamp": "2025-05-19T19:58:42.329846",
+  "event_type": "file_not_found_error",
+  "file_type": "CPU Keywords",
+  "path": "../data/codebooks/cpu_generation_keywords_v1.0.json"
+}
+{
+  "timestamp": "2025-05-19T19:58:42.329846",
+  "event_type": "critical_error_cpu_keywords_not_loaded"
+}

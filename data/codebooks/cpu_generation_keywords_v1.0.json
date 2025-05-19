@@ -1,0 +1,10 @@
+{
+  "Haswell-EP/EX": ["Haswell-EP", "Haswell-EX", "HSX", "Xeon E5 v3", "Xeon E7 v3", "Haswell"],
+  "Broadwell-EP/EX": ["Broadwell-EP", "Broadwell-EX", "BDX", "Xeon E5 v4", "Xeon E7 v4", "Broadwell"],
+  "Skylake-SP": ["Skylake-SP", "Skylake Scalable", "SKX", "Xeon Scalable 1st Gen", "Xeon Platinum 8100", "Xeon Gold 6100", "Xeon Gold 5100", "Skylake"],
+  "Cascade Lake-SP": ["Cascade Lake-SP", "CLX", "Xeon Scalable 2nd Gen", "Xeon Platinum 8200", "Xeon Gold 6200", "Xeon Gold 5200", "Cascade Lake-AP", "Cascade Lake"],
+  "Cooper Lake-SP": ["Cooper Lake-SP", "CPX", "Xeon Scalable Cooper", "Cooper Lake"],
+  "Ice Lake-SP": ["Ice Lake-SP", "ICX", "Xeon Scalable 3rd Gen", "Xeon Platinum 8300", "Ice Lake"],
+  "Sapphire Rapids-SP": ["Sapphire Rapids-SP", "SPR", "Xeon Scalable 4th Gen", "Xeon Platinum 8400", "Xeon Max", "Sapphire Rapids"],
+  "Emerald Rapids-SP": ["Emerald Rapids-SP", "EMR", "Xeon Scalable 5th Gen", "Xeon Platinum 8500", "Emerald Rapids"]
+}
