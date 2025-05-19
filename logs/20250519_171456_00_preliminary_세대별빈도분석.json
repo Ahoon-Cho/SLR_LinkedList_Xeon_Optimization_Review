@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-05-19T17:14:56.078348",
+  "event_type": "script_start",
+  "script_name": "00_preliminary_세대별빈도분석.py",
+  "arguments": {
+    "input_file": "../data/raw_search_results/ACM_DL_generation_counts_manual.csv",
+    "output_dir": "../results/"
+  }
+}
+{
+  "timestamp": "2025-05-19T17:14:56.079359",
+  "event_type": "data_loading_start",
+  "file_path": "../data/raw_search_results/ACM_DL_generation_counts_manual.csv"
+}
+{
+  "timestamp": "2025-05-19T17:14:56.081358",
+  "event_type": "data_loading_error",
+  "file_path": "../data/raw_search_results/ACM_DL_generation_counts_manual.csv",
+  "error": "[Errno 2] No such file or directory: '../data/raw_search_results/ACM_DL_generation_counts_manual.csv'"
+}
